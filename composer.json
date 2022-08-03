@@ -2,12 +2,6 @@
     "name": "lexprodsas/contao-component-bootstrap",
     "type": "contao-component",
     "license": "LGPL-3.0-or-later",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/markocupic/contao-component-bootstrap"
-        }
-    ],
     "require": {
         "contao-components/installer": "^1.0"
     },
