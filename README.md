@@ -11,13 +11,15 @@ f.ex if your main.scss is located in `files/mytheme/scss/main.scss` you can impo
  files/mytheme/scss/main.scss
  **/
 
+$bootstrapFolder: "../../assets/contao-component-bootstrap/bootstrap/scss/";
+
 // Import the bootstrap component from the assets directory
-@import "../../../assets/contao-component-bootstrap/bootstrap/scss/bootstrap.scss";
+@import $bootstrapFolder + "bootstrap";
 
 // Import some other custom style definitions
-@import "base/page";
-@import "base/layout";
-@import "base/type";
+@import $bootstrapFolder + "base/page";
+@import $bootstrapFolder + "base/layout";
+@import $bootstrapFolder + "base/type";
 // etc.
 
 ```
