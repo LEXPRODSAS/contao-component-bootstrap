@@ -1,5 +1,5 @@
 {
-    "name": "LEXPRODSAS/contao-component-bootstrap",
+    "name": "lexprodsas/contao-component-bootstrap",
     "type": "contao-component",
     "license": "LGPL-3.0-or-later",
     "require": {
